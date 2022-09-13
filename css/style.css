@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.my-icon{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.my-icon:hover{
+    background-color: lightgray;
+    border-radius: 50%;
+    
+}
